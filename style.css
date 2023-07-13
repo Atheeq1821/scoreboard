@@ -1,0 +1,58 @@
+@font-face {
+    font-family: timer;
+    src: url("fonts/E1234-p7pER.ttf");
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin:2em 20vw 0px 20vw;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    font-family: 'Lilita One', cursive;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: white;
+    
+}
+.score{
+    font-family: timer;
+    background-color: black;
+    text-align: center;
+    margin-top: 2vw;
+    padding: 50px 70px;
+   /* width:11.29vw;*/
+    font-size: 90px;
+    border-radius: 10px;
+    color: #F94F6D;
+}
+.wrapper{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+    
+}
+.border{
+    border: 2px solid #F94F6D;
+    padding:10px;
+}
+.board{
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Sirin Stencil', cursive;
+    font-size: 70px;
+    background-color: #996ddb;
+    border-radius: 10px;
+    border: 6px double white;
+    box-shadow: 20px 20px 2px #241241;
+}
+.border:hover{
+    background-color: #d4193c;
+    color:#241241;
+}

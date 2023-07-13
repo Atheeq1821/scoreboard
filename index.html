@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScooreBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Sirin+Stencil&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h1>HOME</h1>
+            <div id="score1" class="score">0</div>
+            <div class="wrapper">
+                <div id="1pointx" class="border" onclick="p1h()">+1</div>
+                <div id="2pointx" class="border" onclick="p2h()">+2</div>
+                <div id="3pointx" class="border" onclick="p3h()">+3</div>
+            </div>
+        </div>
+        <div class="oppo">
+            <h1>GUEST</h1>
+            <div id="score2" class="score">0</div>
+            <div class="wrapper">
+                <div id="1pointy" class="border" onclick="p1g()">+1</div>
+                <div id="2pointy" class="border" onclick="p2g()">+2</div>
+                <div id="3pointy" class="border" onclick="p3g()">+3</div>
+            </div>
+        </div>
+    </div>
+    <div class="board">SCORE BOARD</div>
+</body>
+<script src="index.js"></script>
+</html>
